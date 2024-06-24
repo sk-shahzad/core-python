@@ -190,13 +190,13 @@ print('python' in course)  #returns boolean value
 
 # print(Collection)
 
-col = set()
-col.add(1)
-col.add(2)
-col.add(2)
+# col = set()
+# col.add(1)
+# col.add(2)
+# col.add(2)
 
-col.remove(1)
-print(col)
+# col.remove(1)
+# print(col)
 
 # Loop
 # i = 1
@@ -213,7 +213,7 @@ print(col)
 #   i += 1
 
 # continue
-# i = 1
+# i = 0
 # while i <= 6:
 #   if (i == 3):
 #     i += 1
@@ -222,8 +222,8 @@ print(col)
 #   i += 1
   
 
-#   i = 3
-#   while i <= 30:
+# i = 3
+# while i <= 30:
 #     print(i)
 #     i += 3
 
@@ -233,11 +233,11 @@ print(col)
 #   i += 1
 
 # traverse
-# num = [1,4,9,18,29,22,]
-# idx = 0
-# while idx < len(num):
-#   print(num[idx])
-#   idx += 1
+num = [1,4,9,18,29,22,]
+idx = 0
+while idx < len(num):
+  print(num[idx])
+  idx += 1
 
 # t = (1,2,4,2,6,2,4,)
 # x = 4
