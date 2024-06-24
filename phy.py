@@ -7,7 +7,7 @@
 # y = "John"
 # print(x)
 # print(y)
-#
+
 # x = "awesome "
 # y = 'and easy'
 # print("Python is " + x + y)
@@ -33,7 +33,7 @@
 
 # birth_year = input('birth year: ')
 # age =2024- int(birth_year)
-# print(age)
+# print("You are ", age, "Years old")
 
 # a = "i am a programmer"
 # print(a.replace("programmer","Coder"))
@@ -78,7 +78,7 @@ print('python' in course)  #returns boolean value
 # # for x in banana:
 # banana[1] = "cherry"
 # banana.append("orange")
-# print(banana)
+#   print(banana)
 
 # import mymodule
 # mymodule.greeting(" sana")
@@ -100,8 +100,9 @@ print('python' in course)  #returns boolean value
 # try:
 #   print(t)
 # except:
-  # print("An exception occurred")
+#   print("An exception occurred")
 
+# File handling
 # f = open("demo.txt","x")
 # f = open("demo.txt", "r")
 # print(f.readline())
@@ -120,7 +121,7 @@ print('python' in course)  #returns boolean value
 # else:
 #   print("The file does not exist")
 
-# age = int(input("Enter age"))
+# age = int(input("Enter age: "))
 # if(age > 18):
 #     if(age > 80):
 #       print("cannot drive")
@@ -161,7 +162,7 @@ print('python' in course)  #returns boolean value
 #   "BS"    :  "CS"
 # }
 
-# print(info["name"])
+# # print(info["name"])
 # info["name"] = "Shahzad"
 # info["Age"] = 25
 # info.update({"Address" : "swat"})
@@ -184,18 +185,18 @@ print('python' in course)  #returns boolean value
 # print((student.values()))
 
 
-#set
+# set
 # Collection = {1, 2, 3, 4, "hello", "world", "world"}
 
 # print(Collection)
 
-# col = set()
-# col.add(1)
-# col.add(2)
-# col.add(2)
+col = set()
+col.add(1)
+col.add(2)
+col.add(2)
 
-# col.remove(1)
-# print(col)
+col.remove(1)
+print(col)
 
 # Loop
 # i = 1
@@ -500,15 +501,15 @@ print('python' in course)  #returns boolean value
 # eng1 = Engineer("Elon musk", 40)
 # eng1.showDetails()
 
-class Order:
-  def __init__(self, item, price):
-    self.item = item
-    self.price = price
+# class Order:
+#   def __init__(self, item, price):
+#     self.item = item
+#     self.price = price
 
-  def __gt__(self, ordr2):
-    return self.price > ordr2.price
+#   def __gt__(self, ordr2):
+#     return self.price > ordr2.price
 
-ordr1 = Order("chips", 10)
-ordr2 = Order("tea", 15)
+# ordr1 = Order("chips", 10)
+# ordr2 = Order("tea", 15)
 
-print(ordr1 > ordr2)
+# print(ordr1 > ordr2)
