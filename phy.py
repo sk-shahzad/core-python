@@ -233,11 +233,11 @@ print('python' in course)  #returns boolean value
 #   i += 1
 
 # traverse
-num = [1,4,9,18,29,22,]
-idx = 0
-while idx < len(num):
-  print(num[idx])
-  idx += 1
+# num = [1,4,9,18,29,22]
+# idx = 0
+# while idx < len(num):
+#   print(num[idx])
+#   idx += 1
 
 # t = (1,2,4,2,6,2,4,)
 # x = 4
@@ -255,7 +255,7 @@ while idx < len(num):
 # idx = 0
 # for i in nums:
 #   if (i == x): 
-#     print("Number found at idx: ", idx)
+#     print("Number found at idx: ", idx, x)
 #     break
 #   idx +=1 
 
@@ -513,3 +513,32 @@ while idx < len(num):
 # ordr2 = Order("tea", 15)
 
 # print(ordr1 > ordr2)
+
+
+# Basic again
+# j = (1,2,4,2,6,2,4,)
+# x = 4
+
+# for index, value in enumerate(j):
+#     try:
+#         if value == x:
+#             print(f"The value {value} is found at index numer {index}")
+#             break
+#     except Exception as e:
+#         print(f"Got an error in the code : {e}")
+#         print("Something went wrong")
+
+# d = {
+#     "name": "Shahzad",
+#     "Address": "swat"
+# }
+
+# for x in d.items():
+#     print(x)
+
+# for key, value in d.items():
+#     print(key, value)
+
+
+
+
