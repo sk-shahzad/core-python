@@ -517,7 +517,7 @@ print('python' in course)  #returns boolean value
 
 # Basic again
 # j = (1,2,4,2,6,2,4,)
-# x = 4
+# x = 3
 
 # for index, value in enumerate(j):
 #     try:
@@ -538,6 +538,71 @@ print('python' in course)  #returns boolean value
 
 # for key, value in d.items():
 #     print(key, value)
+
+# t = (1,2,4,5,3,5,6)
+# x = 2
+
+# for idx, val in enumerate(t):
+#     if val == x:
+#         print(f"value {x} is found at index {idx} ")
+#     elif idx == len(t) - 1:
+#          print("Tuple Ends Here...")
+#     else:
+#         print("Finding..")
+
+# lst = ['shahzad','khalid','ali','fawad']
+# print([name for name in lst])
+
+# names1 = ['ahmad','ali','hasnain','izhar']
+# emp_list = []
+# for x in names1:
+#     emp_list.append(x)
+# print(emp_list)
+
+# square all nmbers
+# nmbrs = [1, 2, 3, 4, 5]
+# sqrs = [x ** 2 for x in nmbrs]
+
+# print(sqrs)
+
+# Filter out odd numbers
+# nmbrs = [1, 2, 3, 4, 5]
+# even_nmbrs = [x for x in nmbrs if x % 2 ==0]
+# print(even_nmbrs)
+
+# convert string to uppercase
+# strng = ["Hello","world"]
+# upr = [x.upper() for x in strng]
+# print(upr)
+
+# Flatten a list of lists
+# matrix = [[1,2,3], [4,5,6], [7,8,9]]
+# flate_list = [x for sublist in matrix for x in sublist]
+# print(flate_list)
+
+# list of tuples with coordinates
+# coords = [(x, y) for x in range(3) for y in range(3)]
+# print(coords)
+
+# list of dictionary
+# students = [
+#   {"name": "khalid", "Age": 19},
+#   {"name": "ubaid", "Age": 22},
+#   {"name": "Ikram", "Age": 33}
+# ]
+
+# std_names = [student["name"] for student in students]
+# print(std_names)
+
+# cartesian product
+# colors = ["red", 'green', "blue"]
+# shapes = ["circle", "square", "triangle"]
+
+# combination = [(color, shape) for color in colors for shape in shapes]
+# print(combination)
+
+
+
 
 
 
