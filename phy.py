@@ -644,24 +644,33 @@ import re
 
 # Decorators
 
-def greet(fx):
-    def mfx(*args, **kwargs):
-        print("Good Morning")
-        fx(*args, **kwargs)
-        print("Thanks for visit here")
-    return mfx
+# def greet(fx):
+#     def mfx(*args, **kwargs):
+#         print("Good Morning")
+#         fx(*args, **kwargs)
+#         print("Thanks for visit here")
+#     return mfx
 
-@greet
-def hello():
-    print("Hello")
+# @greet
+# def hello():
+#     print("Hello")
 
-@greet
-def add(a,b):
-    print(a+b)
-hello()
-# greet(add)(1,2)
-add(1,2)
+# @greet
+# def add(a,b):
+#     print(a+b)
+# hello()
+# # greet(add)(1,2)
+# add(1,2)
 
+# add = lambda a:a+10
+
+# print(add(10))
+
+# a = lambda a,b:a+b
+# print(a(10,20)) 
+
+# b = lambda a,b:(a+b, a-b)
+# print(b(10,20))
 
 
 
