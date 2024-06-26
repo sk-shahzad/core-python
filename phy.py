@@ -601,6 +601,68 @@ print('python' in course)  #returns boolean value
 # combination = [(color, shape) for color in colors for shape in shapes]
 # print(combination)
 
+# Regex
+import re
+
+# pattern = r"[A-Z]hop"
+# text = ''' A quick brown fox jumps over the lazy dog and jumps to the next of the Shop Xhop then
+#             they disappeared'''
+
+# # match = re.search(pattern, text)
+# matches = re.finditer(pattern, text)
+# for match in matches:
+#     print(match)
+
+# pattern = re.compile("^[A-Z]+$")
+# pattern = re.compile("^[A-Z\s]+$")
+# print(pattern.search("Hello world"))
+# print(pattern.search("HELLO World"))
+# print(pattern.search("HELLOWORLD"))
+# print(pattern.search("HELLO WORLD"))
+
+# 3 lowercase letters
+# 3 to 5 digits
+# one symbol
+# up to two uppercase letters (optional)
+
+# hzu6681$K
+# pattern = re.compile("^[a-z]{3}[0-9]{3,5}[^a-zA-Z0-9]{1}[A-Z]{0,2}$")
+# print(pattern.search("ahd2331#AJ"))
+# print(pattern.search("lll44411.K"))
+# print(pattern.search("ll44411."))
+
+# pattern = re.compile("^.{10}$")
+# print(pattern.search("ahd2331#AJ"))
+# print(pattern.search("lll44411.K"))
+# print(pattern.search("ll44411."))
+
+# email validation
+# pattern = re.compile("^[a-zA-Z0-9\.\-_]+@{1}[A-Za-z0-9]+\.{1}[a-zA-Z]{2,3}$")
+# print(pattern.search("polestohac@thraml.com"))
+# print(pattern.search("+jdb@Gmail.com"))
+# print(pattern.search("ll44411.com"))
+
+# Decorators
+
+def greet(fx):
+    def mfx(*args, **kwargs):
+        print("Good Morning")
+        fx(*args, **kwargs)
+        print("Thanks for visit here")
+    return mfx
+
+@greet
+def hello():
+    print("Hello")
+
+@greet
+def add(a,b):
+    print(a+b)
+hello()
+# greet(add)(1,2)
+add(1,2)
+
+
 
 
 
