@@ -1,7 +1,7 @@
-if 5 < 2:
-     print("Five is greater than two!")
-else:
-     print('Python is awesome')
+# if 5 < 2:
+#      print("Five is greater than two!")
+# else:
+#      print('Python is awesome')
 # variables
 # x = 5
 # y = "John"
@@ -38,6 +38,41 @@ else:
 # a = "i am a programmer"
 # print(a.replace("programmer","Coder"))
 # print(a.find("r"))
+
+#Data Types
+#int
+# a = 43
+# #Float
+# weight = 59.32
+# #String
+# name = 'sk'
+# #boolean
+# is_boy = True
+# #list
+# list1=[100,200,300]
+# #Dictionary
+# dict1={'name':'shahzad', 'age':25}
+
+# print(dict1['age'], type(dict1))
+
+# a = str(5)
+# b = str(6)
+# print(a+b)
+
+# print('enter your name')
+# a= input()
+# print('hello ' + a)
+
+# try:
+#     print(x)
+# except NameError:
+#     print('x is undefined')
+# except:
+#     print('an Error has occured')
+# finally:
+#     print('Try except is finished')
+
+
 '''
 course =  hi
     i am janooo
