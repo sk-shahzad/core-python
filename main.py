@@ -55,6 +55,89 @@
 
 # print(dict1['age'], type(dict1))
 
+#String
+# a = """I don't "hello", world"""
+# b = a.split(',')
+# print(a)
+# name = 6
+# raw = f"hello world {1+2}" 
+# print(raw)
+
+# string formating
+# name = 'Khalid'
+# age = 9
+# gender = "male"
+
+# print (name==age)
+# c = "my name is %s and I live in %s" % (name, age)
+# print(f'My name is {name.upper()} I am {age} ')
+# print("My name is {} and I live in {:.2f}.".format(name, age))
+# print("I got {0:.2f}% marks in  English.".format(97.55))
+# print("my name is {} and I am {:d} ".format(name, age))
+# print(f"My name is {name} I am {age}."\
+#     f"and I am a {gender}")
+
+#String Methods
+#Strip remove leading and trailing characters and whitespaces
+# x = "aaaaHello Worldaaa".strip('a')
+# print(x)
+# p = "   Solve any problem is an art.   ".strip('. ')
+# print(p)
+
+#lstrip remove the leading whitespaces
+# s = "   Hello world   '".lstrip()
+# print(s)
+
+#rstrip remove from right i-e trailing
+# c = "Hello world    ".rstrip()
+# print(c)
+
+# h = "my name is klaus ".rstrip('my ')
+# print(h)
+
+# split -> used to split a sting into a list. string.split(separator, maxsplit)
+# print("Hello! I am klaus".split())
+# print("Hello!$I$am$klaus".split('$', maxsplit=3))
+
+# rsplit method used to split the string from the right. string.split(separator, maxsplit)
+# print("Hello!$I$am$klaus".rsplit('$', maxsplit=2))
+# print("Hello! I am klaus".rsplit())
+
+# join used to join the element of iterable
+# l1 = ['h','e','l','l','o']
+# print(''.join(l1))
+# l2 = ['I', 'am', 'klaus']
+# print(' '.join(l2))
+# l3 = ['name', 'of', 'a', 'variable']
+# print('_'.join(l3))
+# d = {'name': 'adam', 'country': 'US'}
+# print(' and '.join(d))
+
+# Replace
+s = "I love to eat strawberries."
+print(s.replace('strawberries', 'mangoes'))
+
+
+
+
+
+
+
+
+
+
+
+
+# x = 10
+# y = 20
+# total = x+y
+# print("The total is " + str(total))
+
+
+# x = "pakistan "
+# print(x * 3)
+# print(x[0])
+
 # a = str(5)
 # b = str(6)
 # print(a+b)
@@ -71,7 +154,6 @@
 #     print('an Error has occured')
 # finally:
 #     print('Try except is finished')
-
 
 '''
 course =  hi
@@ -109,7 +191,9 @@ print('python' in course)  #returns boolean value
 #     print("lovely day")
 # print("enjoy your day")
 
-# banana = ["banana","apple"]
+# banana = ["banana","apple", "mango"]
+# banana.pop("mango")
+# print(banana)
 # # for x in banana:
 # banana[1] = "cherry"
 # banana.append("orange")
