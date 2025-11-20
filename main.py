@@ -1,7 +1,7 @@
-# if 5 < 2:
-#      print("Five is greater than two!")
-# else:
-#      print('Python is awesome')
+if 5 < 2:
+     print("Five is greater than two!")
+else:
+     print('Python is awesome')
 # variables
 # x = 5
 # y = "John"
@@ -113,26 +113,39 @@
 # d = {'name': 'adam', 'country': 'US'}
 # print(' and '.join(d))
 
-# Replace
-s = "I love to eat strawberries."
-print(s.replace('strawberries', 'mangoes'))
+# Replace s.replace(old,new,count)
+s = "i love to eat strawberries."
+# print(s.replace('strawberries', 'mangoes'))
+# print(s.replace(' ', '_', 2))
 
+# Upper(), lower(), isalpha(), isnumeric() and isalnum is easy
+# print(s.capitalize())
+# print(s.isupper())
+# print(s.islower())
 
+# count(sub, start, end)
+# print(s.count('r'))
+# print(s.count('love', 0, 13))
 
+# find (sub, start, end), rfind(returns from right occurences)
+# print(s.find('eat'))
+# print(s.find('eat', 1, 10))
 
+# index and find are same but index only run valueError rather than find run -1
 
-
-
-
-
-
-
-
+# Typecasting / type conversion has two types. Implicit and explicit. Implicit is the aility of pyhon 
+# That convert from lower type to upper eg. x= 10, y = 20.9 if we add them the 10 will convert it to 10.0 (implicit)
+# Explicit
 # x = 10
 # y = 20
 # total = x+y
 # print("The total is " + str(total))
 
+# x = '110'
+# print(int(x, 2))
+# x = int(x)
+# print(type(x))
+# print(float(x))
 
 # x = "pakistan "
 # print(x * 3)
