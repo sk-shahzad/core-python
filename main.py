@@ -1,11 +1,11 @@
-if 5 < 2:
-     print("Five is greater than two!")
-else:
-     print('Python is awesome')
+# if 5 < 2:
+#      print("Five is greater than two!")
+# else:
+#      print('Python is awesome')
 # variables
-# x = 5
-# y = "John"
-# print(x + y)
+x = 5
+y = "John"
+print(x)
 # print(y)
 
 # x = "awesome "
