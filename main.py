@@ -3,9 +3,9 @@
 # else:
 #      print('Python is awesome')
 # variables
-x = 5
-y = "John"
-print(x)
+# x = 5
+# y = "John"
+# print(x)
 # print(y)
 
 # x = "awesome "
@@ -24,16 +24,16 @@ print(x)
 
 
 
-# x=input("enter a value")
-# y=input("enter a value")
+# x= int(input("enter a value "))
+# y= int(input("enter a value "))
 # print(x + y)
 # print(type(x))
 
 
 
-# birth_year = input('birth year: ')
-# age =2024- int(birth_year)
-# print("You are ", age, "Years old")
+birth_year = input('birth year: ')
+age = 2025 - int(birth_year)
+print("You are ", age, "Years old")
 
 # a = "i am a programmer"
 # print(a.replace("programmer","Coder"))
