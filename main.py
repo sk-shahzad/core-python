@@ -53,7 +53,7 @@
 # #Dictionary
 dict1={'name':'shahzad', 'age':25}
 
-print(dict1['name'], type(dict1))
+print(dict1['age'], type(dict1))
 
 #String
 # a = """I don't "hello", world"""
