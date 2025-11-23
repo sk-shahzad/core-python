@@ -31,9 +31,9 @@
 
 
 
-birth_year = input('birth year: ')
-age = 2025 - int(birth_year)
-print("You are ", age, "Years old")
+# birth_year = input('birth year: ')
+# age = 2025 - int(birth_year)
+# print("You are ", age, "Years old")
 
 # a = "i am a programmer"
 # print(a.replace("programmer","Coder"))
@@ -51,9 +51,9 @@ print("You are ", age, "Years old")
 # #list
 # list1=[100,200,300]
 # #Dictionary
-# dict1={'name':'shahzad', 'age':25}
+dict1={'name':'shahzad', 'age':25}
 
-# print(dict1['age'], type(dict1))
+print(dict1['name'], type(dict1))
 
 #String
 # a = """I don't "hello", world"""
