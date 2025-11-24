@@ -51,14 +51,19 @@
 # #list
 # list1=[100,200,300]
 # #Dictionary
-dict1={'name':'shahzad', 'age':25}
+# dict1={'name':'shahzad', 'age':25}
 
-print(dict1['age'], type(dict1))
+# print(dict1['age'], type(dict1))
 
 #String
-# a = """I don't "hello", world"""
-# b = a.split(',')
+# a = "I don't \"hello\", world"
 # print(a)
+multi = """Hello!
+This is a multi line
+String"""
+print(multi)
+# b = a.split(',')
+# print(b)
 # name = 6
 # raw = f"hello world {1+2}" 
 # print(raw)
