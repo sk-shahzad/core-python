@@ -58,23 +58,27 @@
 #String
 # a = "I don't \"hello\", world"
 # print(a)
-multi = """Hello!
-This is a multi line
-String"""
-print(multi)
+# multi = """Hello!
+# This is a multi line
+# String"""
+# print(multi)
 # b = a.split(',')
 # print(b)
-# name = 6
-# raw = f"hello world {1+2}" 
-# print(raw)
+
+# fstring
+# f = f"This is a fstring {1+2}"
+# print(f)
+
 
 # string formating
-# name = 'Khalid'
-# age = 9
+name = 'Ezaan'
+age = 9
+Add = "SWAT"
 # gender = "male"
-
 # print (name==age)
-# c = "my name is %s and I live in %s" % (name, age)
+
+c = "my name is %s and I live in %s" % (name, Add)
+print(c)
 # print(f'My name is {name.upper()} I am {age} ')
 # print("My name is {} and I live in {:.2f}.".format(name, age))
 # print("I got {0:.2f}% marks in  English.".format(97.55))
