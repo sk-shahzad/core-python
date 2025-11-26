@@ -100,8 +100,8 @@ gender = "male"
 # c = "Hello world    ".rstrip()
 # print(c)
 
-h = "my name is klaus my".rstrip('my ')
-print(h)
+s = "my name is klaus my".rstrip('my ')
+print(s)
 
 # split -> used to split a sting into a list. string.split(separator, maxsplit)
 # print("Hello! I am klaus".split())
@@ -109,7 +109,7 @@ print(h)
 
 # rsplit method used to split the string from the right. string.split(separator, maxsplit)
 # print("Hello!$I$am$klaus".rsplit('$', maxsplit=2))
-# print("Hello! I am klaus".rsplit())
+# print("Hello! I am klaus".rsplit('l', maxsplit=2))
 
 # join used to join the element of iterable
 # l1 = ['h','e','l','l','o']
