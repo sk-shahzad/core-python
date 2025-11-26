@@ -73,14 +73,14 @@
 # string formating
 name = 'Ezaan'
 age = 9
-Add = "SWAT"
-# gender = "male"
-# print (name==age)
+# Add = "SWAT"
+# # gender = "male"
+# # print (name==age)
 
-c = "my name is %s and I live in %s" % (name, Add)
-print(c)
-# print(f'My name is {name.upper()} I am {age} ')
-# print("My name is {} and I live in {:.2f}.".format(name, age))
+# c = "my name is %s and I live in %s" % (name, Add)
+# print(c)
+# print(f'my name is {name} and my age is {age + 16 }')
+print("My name is {} and I live in {:.1f}.".format(name, age))
 # print("I got {0:.2f}% marks in  English.".format(97.55))
 # print("my name is {} and I am {:d} ".format(name, age))
 # print(f"My name is {name} I am {age}."\
