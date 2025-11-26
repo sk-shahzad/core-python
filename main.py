@@ -72,25 +72,24 @@
 
 # string formating
 name = 'Ezaan'
-age = 9
+age = 26.6
 # Add = "SWAT"
-# # gender = "male"
+gender = "male"
 # # print (name==age)
 
 # c = "my name is %s and I live in %s" % (name, Add)
 # print(c)
 # print(f'my name is {name} and my age is {age + 16 }')
-print("My name is {} and I live in {:.1f}.".format(name, age))
-# print("I got {0:.2f}% marks in  English.".format(97.55))
-# print("my name is {} and I am {:d} ".format(name, age))
-# print(f"My name is {name} I am {age}."\
-#     f"and I am a {gender}")
+# print("My name is {} and I live in {:.1f}.".format(name, age))
+# print("I got {0:.2f}% marks in  English.".format(98))
+# print("my name is {} and I am {:.0f} ".format(name, age))
+# print(f"My name is {name} I am {int(age)} and I am a {gender}")
 
 #String Methods
 #Strip remove leading and trailing characters and whitespaces
-# x = "aaaaHello Worldaaa".strip('a')
+# x = "aaaaHello Worldaaa".strip('a,H')
 # print(x)
-# p = "   Solve any problem is an art.   ".strip('. ')
+# p = "   Solving a problem is an art.   ".strip('. ')
 # print(p)
 
 #lstrip remove the leading whitespaces
@@ -101,8 +100,8 @@ print("My name is {} and I live in {:.1f}.".format(name, age))
 # c = "Hello world    ".rstrip()
 # print(c)
 
-# h = "my name is klaus ".rstrip('my ')
-# print(h)
+h = "my name is klaus my".rstrip('my ')
+print(h)
 
 # split -> used to split a sting into a list. string.split(separator, maxsplit)
 # print("Hello! I am klaus".split())
