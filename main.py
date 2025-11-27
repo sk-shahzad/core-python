@@ -71,10 +71,10 @@
 
 
 # string formating
-name = 'Ezaan'
-age = 26.6
+# name = 'Ezaan'
+# age = 26.6
 # Add = "SWAT"
-gender = "male"
+# gender = "male"
 # # print (name==age)
 
 # c = "my name is %s and I live in %s" % (name, Add)
@@ -100,12 +100,12 @@ gender = "male"
 # c = "Hello world    ".rstrip()
 # print(c)
 
-s = "my name is klaus my".rstrip('my ')
-print(s)
+# s = "my name is klaus my".rstrip('my ')
+# print(s)
 
 # split -> used to split a sting into a list. string.split(separator, maxsplit)
 # print("Hello! I am klaus".split())
-# print("Hello!$I$am$klaus".split('$', maxsplit=3))
+# print("Hello!$I$am$klaus".split('$', maxsplit=2))
 
 # rsplit method used to split the string from the right. string.split(separator, maxsplit)
 # print("Hello!$I$am$klaus".rsplit('$', maxsplit=2))
