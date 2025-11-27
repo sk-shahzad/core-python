@@ -140,6 +140,8 @@ s = "i love to eat strawberries."
 # print(s.find('eat', 1, 10))
 
 # index and find are same but index only run valueError rather than find run -1
+# a = "python"
+# print(a[0])
 
 # Typecasting / type conversion has two types. Implicit and explicit. Implicit is the aility of pyhon 
 # That convert from lower type to upper eg. x= 10, y = 20.9 if we add them the 10 will convert it to 10.0 (implicit)
@@ -150,10 +152,10 @@ s = "i love to eat strawberries."
 # print("The total is " + str(total))
 
 # x = '110'
-# print(int(x, 2))
+# print(int(x, 16))  #convert to base 2
 # x = int(x)
 # print(type(x))
-# print(float(x))
+# print(float(x)) 
 
 # x = "pakistan "
 # print(x * 3)
