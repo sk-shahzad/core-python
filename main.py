@@ -169,14 +169,14 @@ s = "i love to eat strawberries."
 # a= input()
 # print('hello ' + a)
 
-try:
-    print(x)
-except NameError:
-    print('x is undefined')
-except:
-    print('an Error has occured')
-finally:
-    print('Try except is finished')
+# try:
+#     print(x)
+# except NameError:
+#     print('x is undefined')
+# except:
+#     print('an Error has occured')
+# finally:
+#     print('Try except is finished')
 
 '''
 course =  hi
@@ -186,24 +186,23 @@ course =  hi
 print(course) #it gives the code as how we write it but after = and last must be mlc
 '''
 
-'''
-course = 'python is a programming language'
-print(course[0]) #it will show the first letter of line
-'''
+# Indexing
+# course = 'python is a programming language'
+# print(course[0]) #it will show the first letter of line
 
-'''
-course = 'python is a programming language'
-print(course[-1]) #it will display the last letter from line
-'''
-'''
-course = 'python is a programming language'
-print(course[0:3]) #it gives the first three words
-print(course.upper()) #convert to upper case
-print(course.find('p')) #it shows index address
-print(course.replace('programming','high level')) # replacing
-print('python' in course)  #returns boolean value
-'''
 
+# course = 'python is a programming language'
+# print(course[-1]) #it will display the last letter from line
+
+
+course = 'python is a programming language'
+# print(course[0:3]) #it gives the first three words
+# print(course.upper()) #convert to upper case
+# print(course.find('p')) #it shows index address
+# print(course.replace('programming','high-level')) # replacing
+# print('python' in course)  #returns boolean value
+
+# Conditionals
 # is_hot=False
 # is_cold=False
 # if is_hot:
@@ -214,21 +213,26 @@ print('python' in course)  #returns boolean value
 #     print("lovely day")
 # print("enjoy your day")
 
-# banana = ["banana","apple", "mango"]
-# banana.pop("mango")
+
+# banana = ["banana","apple", "mango","cherry", "apricot"]
+# banana.pop(2)
+# banana.remove("apricot")
 # print(banana)
-# # for x in banana:
-# banana[1] = "cherry"
+# for x in banana:
+#    banana[1] = "cherry"
 # banana.append("orange")
-#   print(banana)
+# print(banana)
 
 # import mymodule
-# mymodule.greeting(" sana")
+# print("Enter your name: ")
+# a = input()
+# mymodule.greeting(a)
+# print(dir(mymodule)) 
 
 # import datetime
 
 # x = datetime.datetime.now()
-# print(x.year)
+# print(x.year - 1999)
 
 # import camelcase
 
