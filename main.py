@@ -298,9 +298,21 @@ Tuple = ordered and unchangeable Allow duplicate
 Set = unordered and unchangeable, unindexed, no duplicate
 dictionary = Ordered and changeable, no duplicate. '''
 
+
+# List
 l = [1,2,3,4,4]
-print(l)
-# print(type(l))
+# print(l)
+# if 2 in l:
+#     print('True')
+# l[1] = "two"
+# print(l)
+# print(len(l))
+# l[2] = 5
+# print(l)
+
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+print(thislist)
 
 # mov = []
 
