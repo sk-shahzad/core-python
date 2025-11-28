@@ -143,14 +143,14 @@ s = "i love to eat strawberries."
 # a = "python"
 # print(a[0])
 
-# Typecasting / type conversion has two types. Implicit and explicit. Implicit is the aility of pyhon 
+# Typecasting / type conversion has two types. Implicit and explicit. Implicit is the ability of pyhon 
 # That convert from lower type to upper eg. x= 10, y = 20.9 if we add them the 10 will convert it to 10.0 (implicit)
 # Explicit
 # x = 10
 # y = 20
-# total = x+y
-# print("The total is " + str(total))
-
+# total = str(x+y)
+# print("The total is " + total)
+# print(type(total))
 # x = '110'
 # print(int(x, 16))  #convert to base 2
 # x = int(x)
@@ -169,14 +169,14 @@ s = "i love to eat strawberries."
 # a= input()
 # print('hello ' + a)
 
-# try:
-#     print(x)
-# except NameError:
-#     print('x is undefined')
-# except:
-#     print('an Error has occured')
-# finally:
-#     print('Try except is finished')
+try:
+    print(x)
+except NameError:
+    print('x is undefined')
+except:
+    print('an Error has occured')
+finally:
+    print('Try except is finished')
 
 '''
 course =  hi
