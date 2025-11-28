@@ -291,6 +291,16 @@ course = 'python is a programming language'
 #   print("2nd is the largest number ", b)
 # else:
 #   print("3rd is the largest number ", c)
+''''
+Python collections (Array)
+list = Ordered and changeable Allow duplicate
+Tuple = ordered and unchangeable Allow duplicate
+Set = unordered and unchangeable, unindexed, no duplicate
+dictionary = Ordered and changeable, no duplicate. '''
+
+l = [1,2,3,4,4]
+print(l)
+# print(type(l))
 
 # mov = []
 
