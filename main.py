@@ -310,9 +310,42 @@ l = [1,2,3,4,4]
 # l[2] = 5
 # print(l)
 
-thislist = ["apple", "banana", "cherry"]
-thislist.insert(2, "watermelon")
-print(thislist)
+# thislist = ["apple", "banana", "cherry"]
+# thislist.insert(2, "watermelon")
+# print(thislist)
+
+thislist = ["apple", "banana", "apple", "cherry", "orange", "kiwi", "mango"]
+# thislist[1:2] = ["blackcurrant", "watermelon"] #place b/w apple & banana
+# thislist.append("guava")   #add item to last
+# tropical = ["mango", "pineapple", "papaya"]
+
+# remove    
+# thislist.remove("apple")
+thislist.pop(0)
+thislist.pop()
+del thislist[0]
+# del thislist
+# thislist.clear()
+
+#loop list
+# for x in thislist:
+#     print(x)
+for i in range(len(thislist)):
+    print(i)
+    print(thislist[i])
+
+#Extend
+# tuple = ("kiwi", "orange")
+# dic = {'name': 'shahzad', 'age': 26}
+# set = "a,b,c"
+# thislist.extend(tropical)
+# thislist.extend(tuple)
+# thislist.extend(dic.items())
+# thislist.extend(set)
+# try:
+#     print(thislist)
+# except:
+#     print('No list found')
 
 # mov = []
 
