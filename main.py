@@ -314,25 +314,44 @@ l = [1,2,3,4,4]
 # thislist.insert(2, "watermelon")
 # print(thislist)
 
-thislist = ["apple", "banana", "apple", "cherry", "orange", "kiwi", "mango"]
+# thislist = ["apple", "banana", "apple", "cherry", "orange", "kiwi", "mango"]
 # thislist[1:2] = ["blackcurrant", "watermelon"] #place b/w apple & banana
 # thislist.append("guava")   #add item to last
 # tropical = ["mango", "pineapple", "papaya"]
 
 # remove    
 # thislist.remove("apple")
-thislist.pop(0)
-thislist.pop()
-del thislist[0]
+# thislist.pop(0)
+# thislist.pop()
+# del thislist[0]
 # del thislist
 # thislist.clear()
 
 #loop list
 # for x in thislist:
 #     print(x)
-for i in range(len(thislist)):
-    print(i)
-    print(thislist[i])
+# for i in range(len(thislist)):
+#     print(i)
+#     print(thislist[i])
+
+#Using While loop
+# L = ['a','b','c','d']
+# a = 0
+# while a < len(L):
+#     print(L[a])
+#     a = a + 1
+
+# List comprehension
+# list1 = ["apple", "banana", "cherry"]
+# [print(x) for x in list1]
+# [print(x) for x in [1,2,3,4]]
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "ma" in x]
+
+print(newlist)
+print(fruits) 
 
 #Extend
 # tuple = ("kiwi", "orange")
