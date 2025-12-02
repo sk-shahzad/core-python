@@ -365,11 +365,18 @@ l = [1,2,3,4,4]
 
 # sort
 # print(newlist)
-# l = [1,2,3,4,5]
+l = [1,2,3,4,5]
 # nl = [x if x != 2 else 6 for x in l]
 # nl.sort(reverse=True)
 # print(nl)
 
+#Tuple
+t = ("apple","banana","kiwi","apple")
+l = list(t)         #since the tuple is unchangeable so we convert it to list
+l.append("orange")    #then append item
+t2 = tuple(l)       #then again change to tuple
+print(t2)
+print(len(t2))
 
 
 #Extend
