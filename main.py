@@ -346,12 +346,31 @@ l = [1,2,3,4,4]
 # [print(x) for x in list1]
 # [print(x) for x in [1,2,3,4]]
 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
-newlist = [x for x in fruits if "ma" in x]
+# newlist = [x for x in fruits if "ma" in x]
 
-print(newlist)
-print(fruits) 
+# print(newlist)
+# print(fruits) 
+
+#Iterable
+# l2 = [x for x in range(0,10)]
+# print(l2)
+# newlist = ["hello" for x in l2]  #desired outcome all values of l2 = hello
+# print(newlist)
+
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+# newlist = [x if x != "apple" else "orange" for x in fruits]
+
+# sort
+# print(newlist)
+# l = [1,2,3,4,5]
+# nl = [x if x != 2 else 6 for x in l]
+# nl.sort(reverse=True)
+# print(nl)
+
+
 
 #Extend
 # tuple = ("kiwi", "orange")
