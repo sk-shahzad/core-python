@@ -371,21 +371,54 @@ l = [1,2,3,4,4]
 # print(nl)
 
 #Tuple
-t = ("apple","banana","kiwi","apple")
-l = list(t)         #since the tuple is unchangeable so we convert it to list
-l.append("orange")    #then append item
-t2 = tuple(l)       #then again change to tuple
-tu = ("orange",)    #add to tuple to tuple
-t2 += tu
-l2 = list(t2)
-l2.remove("orange")
-t3 = tuple(l2)
-print(t2)
-print(t3)
-print(len(t2))
+# t = ("apple","banana","kiwi","apple")
+# l = list(t)         #since the tuple is unchangeable so we convert it to list
+# l.append("orange")    #then append item
+# t2 = tuple(l)       #then again change to tuple
+# tu = ("orange",)    #add to tuple to tuple
+# t2 += tu
+# l2 = list(t2)
+# l2.remove("orange")
+# t3 = tuple(l2)
+# print(t2)
+# print(t3)
+# print(len(t2))
+
+# unpack
+# (a,b,c,d) = t
+# print(a)
+# print(b)
+# print(c)
+# print(d)
+# (*f,) = t
+# print(f)
+
+#Join
+# t1 = (1,2,3)
+# t2 = ('a','b','c')
+# print(t1+t2)
+# print(t1*2) #multiply
+
+# set
+Collection = {1, 2, 3, 4, "hello", "world", "world"}
+# for x in Collection:
+#     print(x)
+print("hello" in Collection)
+# print(Collection)
+
+Collection.add('greetings')
+print(Collection)
+# col = set()
+# col.add(1)
+# col.add(2)
+# col.add(2)
+
+# col.remove(1)
+# print(col)
 
 
 #Extend
+# thislist = ['apple','bananan']
 # tuple = ("kiwi", "orange")
 # dic = {'name': 'shahzad', 'age': 26}
 # set = "a,b,c"
@@ -436,19 +469,6 @@ print(len(t2))
 # print(list(student.keys()))
 # print((student.values()))
 
-
-# set
-# Collection = {1, 2, 3, 4, "hello", "world", "world"}
-
-# print(Collection)
-
-# col = set()
-# col.add(1)
-# col.add(2)
-# col.add(2)
-
-# col.remove(1)
-# print(col)
 
 # Loop
 # i = 1
