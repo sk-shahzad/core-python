@@ -400,16 +400,54 @@ l = [1,2,3,4,4]
 # print(t1*2) #multiply
 
 # set
-Collection = {1, 2, 3, 4, "hello", "world", "world"}
+# Collection = {1, 2, 3, 4, "hello", "world", "world"}
+# s2 = {"another set"}
 # for x in Collection:
 #     print(x)
-print("hello" in Collection)
+# print("hello" in Collection)
+# Collection.update(s2)
+# Collection.remove("hello")  #will raise error if item not exists
+# Collection.discard("hell")  #doesn't raise error if item not exists
+# Collection.pop()  #you can't be sure what item is removed.
+# Collection.clear()
+# # del Collection  
 # print(Collection)
 
-Collection.add('greetings')
-print(Collection)
+#Join sets
+# we can join multiple sets as so
+s1 = {1,2,3,4,}
+s2 = {"a","b","c",4}
+# s3 = s1.union(s2)   #union and update join all elements from both sets
+# s4 = s1 | s2        #also we can use |
+# print(s3)
+# print(s4)           
+
+# si = s1.intersection(s2)    #keeps only duplicate
+# seti = s1                     #we can use &
+# print(si)
+# print(seti)
+
+# sd = s1.difference(s2)      #from first set that is not in second
+# sd2 = s1 - s2
+# print(sd)
+# print(sd2)
+
+sy = s1.symmetric_difference(s2)   #keep only elements that are not in both, also we use ^
+print(sy)
+
+# frozenset: elements are only different from sets because we can't add or remove elements to it
+
+
+
+
+
+
+# Collection.add('greetings')
+# print(Collection)
+
+
 # col = set()
-# col.add(1)
+# col.add("cherry")
 # col.add(2)
 # col.add(2)
 
