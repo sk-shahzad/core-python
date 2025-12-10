@@ -432,15 +432,10 @@ s2 = {"a","b","c",4}
 # print(sd)
 # print(sd2)
 
-sy = s1.symmetric_difference(s2)   #keep only elements that are not in both, also we use ^
-print(sy)
+# sy = s1.symmetric_difference(s2)   #keep only elements that are not in both, also we use ^
+# print(sy)
 
 # frozenset: elements are only different from sets because we can't add or remove elements to it
-
-
-
-
-
 
 # Collection.add('greetings')
 # print(Collection)
@@ -454,7 +449,35 @@ print(sy)
 # col.remove(1)
 # print(col)
 
+dic = {"name": "shahzad",
+       "Age": 25,
+       "Age": 26,
+       "Address": "Swat"}
+# print(dic)
+# print(dic["name"])
+# print(dic.get("Age"))
+# print(dic.keys())
+# dic["Hobby"] = "Music"
+# print(dic.keys())
 
+# print(dic.values())
+# print(dic.items())
+# if "Age" in dic:
+#     print("True")
+
+dic["Age"] = 88
+dic.update({"Address": "Mingora"})
+# dic.pop("Address")
+dic.popitem()   #Remove last inserted item
+print(dic)
+# del keyword can remove specific item as well as entire dictionary, Clear method empty the dic
+
+for x in dic:
+    print(x)
+for x in dic.values():
+    print(x)
+for x, y in dic.items():
+    print(x, y)
 #Extend
 # thislist = ['apple','bananan']
 # tuple = ("kiwi", "orange")
