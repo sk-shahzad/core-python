@@ -449,10 +449,10 @@ s2 = {"a","b","c",4}
 # col.remove(1)
 # print(col)
 
-dic = {"name": "shahzad",
-       "Age": 25,
-       "Age": 26,
-       "Address": "Swat"}
+# dic = {"name": "shahzad",
+#        "Age": 25,
+#        "Age": 26,
+#        "Address": "Swat"}
 # print(dic)
 # print(dic["name"])
 # print(dic.get("Age"))
@@ -465,19 +465,19 @@ dic = {"name": "shahzad",
 # if "Age" in dic:
 #     print("True")
 
-dic["Age"] = 88
-dic.update({"Address": "Mingora"})
-# dic.pop("Address")
-dic.popitem()   #Remove last inserted item
-print(dic)
+# dic["Age"] = 88
+# dic.update({"Address": "Mingora"})
+# # dic.pop("Address")
+# dic.popitem()   #Remove last inserted item
+# print(dic)
 # del keyword can remove specific item as well as entire dictionary, Clear method empty the dic
 
-for x in dic:
-    print(x)
-for x in dic.values():
-    print(x)
-for x, y in dic.items():
-    print(x, y)
+# for x in dic:
+#     print(x)
+# for x in dic.values():
+#     print(x)
+# for x, y in dic.items():
+#     print(x, y)
 #Extend
 # thislist = ['apple','bananan']
 # tuple = ("kiwi", "orange")
@@ -519,7 +519,7 @@ for x, y in dic.items():
 #   "name" : "Khalid",
 #   "subjects" : {"phy" : 23,
 #                 "chem":  34,
-#                 "COmp":  23},
+#                 "Comp":  23},
 #   "Topic"   :   ("dict","set"),
 #   "CGPA" :  4.0,
 #   "BS"    :  "CS"
@@ -599,7 +599,7 @@ for x, y in dic.items():
 # def sum(a,b):
 #   s = a + b
 #   print(s)
-#   return s
+# #   return s
   
 # sum(5,7) 
 
@@ -610,8 +610,15 @@ for x, y in dic.items():
 #   print (n)
 #   show(n-1)
 
-# show(4)
+# show(3)
 
+def factorial(n):
+    if n == 0:
+        return 1
+    else: 
+        return n * factorial(n-1)
+print(factorial(5)
+      )
 # class Person:
 #   def __init__(self, name, age):
 #     self.name = name
