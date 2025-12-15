@@ -612,13 +612,63 @@ s2 = {"a","b","c",4}
 
 # show(3)
 
-def factorial(n):
-    if n == 0:
-        return 1
-    else: 
-        return n * factorial(n-1)
-print(factorial(5)
-      )
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     else: 
+#         return n * factorial(n-1)
+# print(factorial(5))
+
+# def my_function(*numbers):
+#   total = 0
+#   for num in numbers:
+#     total += num
+#   return total
+
+# print(my_function(1, 2, 3))
+# print(my_function(10, 20, 30, 40))
+# print(my_function(5))
+
+#  Decorators
+
+def changecase(func):
+    def myinner():
+        return func().upper()
+    return myinner
+@changecase
+def myfunction():
+    return "professor"
+print(myfunction())
+
+# def greet(fx):
+#     def mfx(*args, **kwargs):
+#         print("Good Morning")
+#         fx(*args, **kwargs)
+#         print("Thanks for visit here")
+#     return mfx
+
+# @greet
+# def hello():
+#     print("Hello")
+
+# @greet
+# def add(a,b):
+#     print(a+b)
+# hello()
+# # greet(add)(1,2)
+# add(1,2)
+
+# add = lambda a:a+10
+
+# print(add(10))
+
+# a = lambda a,b:a+b
+# print(a(10,20)) 
+
+# b = lambda a,b:(a+b, a-b)
+# print(b(10,20))
+
+
 # class Person:
 #   def __init__(self, name, age):
 #     self.name = name
@@ -982,35 +1032,6 @@ import re
 # print(pattern.search("+jdb@Gmail.com"))
 # print(pattern.search("ll44411.com"))
 
-# Decorators
-
-# def greet(fx):
-#     def mfx(*args, **kwargs):
-#         print("Good Morning")
-#         fx(*args, **kwargs)
-#         print("Thanks for visit here")
-#     return mfx
-
-# @greet
-# def hello():
-#     print("Hello")
-
-# @greet
-# def add(a,b):
-#     print(a+b)
-# hello()
-# # greet(add)(1,2)
-# add(1,2)
-
-# add = lambda a:a+10
-
-# print(add(10))
-
-# a = lambda a,b:a+b
-# print(a(10,20)) 
-
-# b = lambda a,b:(a+b, a-b)
-# print(b(10,20))
 
 
 
