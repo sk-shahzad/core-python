@@ -682,21 +682,21 @@ s2 = {"a","b","c",4}
 # print(p1.age)
 
 
-class Person:
-  def __init__(mysillyobject, name, age):
-    mysillyobject.name = name
-    mysillyobject.age = age
+# class Person:
+#   def __init__(mysillyobject, name, age):
+#     mysillyobject.name = name
+#     mysillyobject.age = age
 
-  def myfunc(ad, address):
-    print("Hello my name is " + ad.name, "\nand my age is")
-    print(ad.age)
-    ad.address = address
-    print("my address is" + address)
+#   def myfunc(ad, address):
+#     print("Hello my name is " + ad.name, "\nand my age is")
+#     print(ad.age)
+#     ad.address = address
+#     print("my address is" + address)
 
-p1 = Person("John", 36)
-p1.name = "shahzad"
-p1.age = 25
-p1.myfunc(" swat")
+# p1 = Person("John", 36)
+# p1.name = "shahzad"
+# p1.age = 25
+# p1.myfunc(" swat")
 
 
 # class MyNumbers:
@@ -751,6 +751,7 @@ p1.myfunc(" swat")
 
 # m3 = student("Sk" ,[43,34,34])
 # m3.avg()
+# m3.hello()
 
 # class Account:
 #   def __init__(self, bal, acc):
