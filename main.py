@@ -600,24 +600,7 @@ s2 = {"a","b","c",4}
 #   s = a + b
 #   print(s)
 # #   return s
-  
 # sum(5,7) 
-
-# Recursion
-# def show(n):
-#   if (n == 0):
-#     return
-#   print (n)
-#   show(n-1)
-
-# show(3)
-
-# def factorial(n):
-#     if n == 0:
-#         return 1
-#     else: 
-#         return n * factorial(n-1)
-# print(factorial(5))
 
 # def my_function(*numbers):
 #   total = 0
@@ -630,15 +613,14 @@ s2 = {"a","b","c",4}
 # print(my_function(5))
 
 #  Decorators
-
-def changecase(func):
-    def myinner():
-        return func().upper()
-    return myinner
-@changecase
-def myfunction():
-    return "professor"
-print(myfunction())
+# def changecase(func):
+#     def myinner():
+#         return func().upper()
+#     return myinner
+# @changecase
+# def myfunction():
+#     return "professor"
+# print(myfunction())
 
 # def greet(fx):
 #     def mfx(*args, **kwargs):
@@ -658,6 +640,7 @@ print(myfunction())
 # # greet(add)(1,2)
 # add(1,2)
 
+# Lambda
 # add = lambda a:a+10
 
 # print(add(10))
@@ -665,35 +648,55 @@ print(myfunction())
 # a = lambda a,b:a+b
 # print(a(10,20)) 
 
-# b = lambda a,b:(a+b, a-b)
+# b = lambda a,b:(a+b, a-b, a*b, b/a)
 # print(b(10,20))
 
+# def double(n):
+#     return lambda a : a * n
+# doublenumber = double(2)
+# print(doublenumber(5))
 
+# Recursion
+# def show(n):
+#   if (n == 0):
+#     return
+#   print (n)
+#   show(n-1)
+
+# show(3)
+
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     else: 
+#         return n * factorial(n-1)
+# print(factorial(5))
+
+#OOP
 # class Person:
-#   def __init__(self, name, age):
-#     self.name = name
-#     self.age = age
-
-# p1 = Person("Shahzad", 25)
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+# p1 = Person("shahzad", 26)
 # print(p1.name)
 # print(p1.age)
 
 
-# class Person:
-#   def __init__(mysillyobject, name, age):
-#     mysillyobject.name = name
-#     mysillyobject.age = age
+class Person:
+  def __init__(mysillyobject, name, age):
+    mysillyobject.name = name
+    mysillyobject.age = age
 
-#   def myfunc(ad, address):
-#     print("Hello my name is " + ad.name, "\nand my age is")
-#     print(ad.age)
-#     ad.address = address
-#     print("my address is" + address)
+  def myfunc(ad, address):
+    print("Hello my name is " + ad.name, "\nand my age is")
+    print(ad.age)
+    ad.address = address
+    print("my address is" + address)
 
-# p1 = Person("John", 36)
-# p1.name = "shahzad"
-# p1.age = 25
-# p1.myfunc(" swat")
+p1 = Person("John", 36)
+p1.name = "shahzad"
+p1.age = 25
+p1.myfunc(" swat")
 
 
 # class MyNumbers:
