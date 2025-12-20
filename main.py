@@ -179,10 +179,10 @@ s = "i love to eat strawberries."
 #     print('Try except is finished')
 
 '''
-course =  hi
-    i am janooo
-    i love you
-    will you ...
+course =  hi 
+    i am shahzad
+    i am learning
+    python ...
 print(course) #it gives the code as how we write it but after = and last must be mlc
 '''
 
