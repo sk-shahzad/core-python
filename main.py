@@ -960,17 +960,17 @@ s2 = {"a","b","c",4}
 
 
 # Basic again
-# j = (1,2,4,2,6,2,4,)
-# x = 3
+j = (1,2,3,2,6,2,4,)
+x = 3
 
-# for index, value in enumerate(j):
-#     try:
-#         if value == x:
-#             print(f"The value {value} is found at index numer {index}")
-#             break
-#     except Exception as e:
-#         print(f"Got an error in the code : {e}")
-#         print("Something went wrong")
+for index, value in enumerate(j):
+    try:
+        if value == x:
+            print(f"The value {value} is found at index numer {index}")
+            break
+    except Exception as e:
+        print(f"Got an error in the code : {e}")
+        print("Something went wrong")
 
 # d = {
 #     "name": "Shahzad",
