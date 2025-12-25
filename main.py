@@ -960,17 +960,17 @@ s2 = {"a","b","c",4}
 
 
 # Basic again
-j = (1,2,3,2,6,2,4,)
-x = 3
+# j = (1,2,3,2,6,2,4,)
+# x = 3
 
-for index, value in enumerate(j):
-    try:
-        if value == x:
-            print(f"The value {value} is found at index numer {index}")
-            break
-    except Exception as e:
-        print(f"Got an error in the code : {e}")
-        print("Something went wrong")
+# for index, value in enumerate(j):
+#     try:
+#         if value == x:
+#             print(f"The value {value} is found at index numer {index}")
+#             break
+#     except Exception as e:
+#         print(f"Got an error in the code : {e}")
+#         print("Something went wrong")
 
 # d = {
 #     "name": "Shahzad",
@@ -984,7 +984,7 @@ for index, value in enumerate(j):
 #     print(key, value)
 
 # t = (1,2,4,5,3,5,6)
-# x = 2
+# x = 5
 
 # for idx, val in enumerate(t):
 #     if val == x:
@@ -994,8 +994,8 @@ for index, value in enumerate(j):
 #     else:
 #         print("Finding..")
 
-# lst = ['shahzad','khalid','ali','fawad']
-# print([name for name in lst])
+lst = ['shahzad','khalid','ali','fawad']
+print([name for name in lst])
 
 # names1 = ['ahmad','ali','hasnain','izhar']
 # emp_list = []
