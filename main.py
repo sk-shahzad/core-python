@@ -994,7 +994,7 @@ s2 = {"a","b","c",4}
 #     else:
 #         print("Finding..")
 
-lst = ['shahzad','khalid','ali','fawad']
+lst = ['shahzad','khalid','ali','fawad','khan']
 print([name for name in lst])
 
 # names1 = ['ahmad','ali','hasnain','izhar']
