@@ -7,6 +7,7 @@
 # y = "John"
 # print(x)
 # print(y)
+# print(type(y))
 
 # x = "awesome "
 # y = 'and easy'
@@ -17,7 +18,7 @@
 # print(x + y)
 # print(type(x))
 
-# # input string
+# input string
 # print("Enter your name:")
 # x = input()
 # print("Hello, " + x)
@@ -64,18 +65,19 @@
 # print(multi)
 # b = a.split(',')
 # print(b)
+# print(type(b))
 
 # fstring
-# f = f"This is a fstring {1+2}"
+# f = f"This is a fstring {1==2}"
 # print(f)
 
 
 # string formating
-# name = 'Ezaan'
-# age = 26.6
-# Add = "SWAT"
-# gender = "male"
-# # print (name==age)
+name = 'Ezaan'
+age = 26.6
+Add = "SWAT"
+gender = "male"
+# print (name==age)
 
 # c = "my name is %s and I live in %s" % (name, Add)
 # print(c)
@@ -994,8 +996,8 @@ s2 = {"a","b","c",4}
 #     else:
 #         print("Finding..")
 
-lst = ['shahzad','khalid','ali','fawad']
-print([name for name in lst])
+# lst = ['shahzad','khalid','ali','fawad']
+# print([name for name in lst])
 
 # names1 = ['ahmad','ali','hasnain','izhar']
 # emp_list = []
