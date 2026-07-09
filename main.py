@@ -974,16 +974,16 @@ s2 = {"a","b","c",4}
 #         print(f"Got an error in the code : {e}")
 #         print("Something went wrong")
 
-# d = {
-#     "name": "Shahzad",
-#     "Address": "swat"
-# }
+d = {
+    "name": "Shahzad",
+    "Address": "swat"
+}
 
-# for x in d.items():
-#     print(x)
+for x in d.items():
+    print(x)
 
-# for key, value in d.items():
-#     print(key, value)
+for key, value in d.items():
+    print(key, value)
 
 # t = (1,2,4,5,3,5,6)
 # x = 5
@@ -996,8 +996,8 @@ s2 = {"a","b","c",4}
 #     else:
 #         print("Finding..")
 
-# lst = ['shahzad','khalid','ali','fawad']
-# print([name for name in lst])
+lst = ['shahzad','khalid','ali','fawad']
+print([name for name in lst])
 
 # names1 = ['ahmad','ali','hasnain','izhar']
 # emp_list = []
