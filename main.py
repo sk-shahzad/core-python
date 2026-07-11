@@ -153,11 +153,11 @@
 # total = str(x+y)
 # print("The total is " + total)
 # print(type(total))
-x = '110'
-print(int(x, 16))  #convert to base 2
-x = int(x)
-print(type(x))
-print(float(x)) 
+# x = '110'
+# print(int(x, 16))  #convert to base 2
+# x = int(x)
+# print(type(x))
+# print(float(x)) 
 
 # x = "pakistan "
 # print(x * 3)
@@ -170,11 +170,11 @@ print(float(x))
 # print('enter your name')
 # a= input()
 # print('hello ' + a)
-
+# s = 'shahzad'
 # try:
-#     print(x)
+#     print(s)
 # except NameError:
-#     print('x is undefined')
+#     print('s is undefined')
 # except:
 #     print('an Error has occured')
 # finally:
@@ -303,14 +303,14 @@ dictionary = Ordered and changeable, no duplicate. '''
 
 # List
 l = [1,2,3,4,4]
-# print(l)
-# if 2 in l:
-#     print('True')
-# l[1] = "two"
-# print(l)
-# print(len(l))
-# l[2] = 5
-# print(l)
+print(l)
+if 2 in l:
+    print('True')
+l[1] = "two"
+print(l)
+print(len(l))
+l[2] = 5
+print(l)
 
 # thislist = ["apple", "banana", "cherry"]
 # thislist.insert(2, "watermelon")
