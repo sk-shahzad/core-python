@@ -73,10 +73,10 @@
 
 
 # string formating
-name = 'Ezaan'
-age = 26.6
-Add = "SWAT"
-gender = "male"
+# name = 'Ezaan'
+# age = 26.6
+# Add = "SWAT"
+# gender = "male"
 # print (name==age)
 
 # c = "my name is %s and I live in %s" % (name, Add)
@@ -124,7 +124,7 @@ gender = "male"
 # print(' and '.join(d))
 
 # Replace s.replace(old,new,count)
-s = "i love to eat strawberries."
+# s = "i love to eat strawberries."
 # print(s.replace('strawberries', 'mangoes'))
 # print(s.replace(' ', '_', 2))
 
@@ -133,7 +133,7 @@ s = "i love to eat strawberries."
 # print(s.isupper())
 # print(s.islower())
 
-# count(sub, start, end)
+# count(sub, start, end)0]    
 # print(s.count('r'))
 # print(s.count('love', 0, 13))
 
@@ -153,11 +153,11 @@ s = "i love to eat strawberries."
 # total = str(x+y)
 # print("The total is " + total)
 # print(type(total))
-# x = '110'
-# print(int(x, 16))  #convert to base 2
-# x = int(x)
-# print(type(x))
-# print(float(x)) 
+x = '110'
+print(int(x, 16))  #convert to base 2
+x = int(x)
+print(type(x))
+print(float(x)) 
 
 # x = "pakistan "
 # print(x * 3)
@@ -974,16 +974,16 @@ s2 = {"a","b","c",4}
 #         print(f"Got an error in the code : {e}")
 #         print("Something went wrong")
 
-d = {
-    "name": "Shahzad",
-    "Address": "swat"
-}
+# d = {
+#     "name": "Shahzad",
+#     "Address": "swat"
+# }
 
-for x in d.items():
-    print(x)
+# for x in d.items():
+#     print(x)
 
-for key, value in d.items():
-    print(key, value)
+# for key, value in d.items():
+#     print(key, value)
 
 # t = (1,2,4,5,3,5,6)
 # x = 5
@@ -996,8 +996,8 @@ for key, value in d.items():
 #     else:
 #         print("Finding..")
 
-lst = ['shahzad','khalid','ali','fawad']
-print([name for name in lst])
+# lst = ['shahzad','khalid','ali','fawad']
+# print([name for name in lst])
 
 # names1 = ['ahmad','ali','hasnain','izhar']
 # emp_list = []
