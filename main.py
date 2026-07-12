@@ -302,21 +302,21 @@ dictionary = Ordered and changeable, no duplicate. '''
 
 
 # List
-l = [1,2,3,4,4]
-print(l)
-if 2 in l:
-    print('True')
-l[1] = "two"
-print(l)
-print(len(l))
-l[2] = 5
-print(l)
+# l = [1,2,3,4,4]
+# print(l)
+# if 2 in l:
+#     print('True')
+# l[1] = "two"
+# print(l)
+# print(len(l))
+# l[2] = 5
+# print(l)
 
 # thislist = ["apple", "banana", "cherry"]
-# thislist.insert(2, "watermelon")
+# thislist.insert(2,"watermelon")
 # print(thislist)
 
-# thislist = ["apple", "banana", "apple", "cherry", "orange", "kiwi", "mango"]
+thislist = ["apple", "banana", "apple", "cherry", "orange", "kiwi", "mango"]
 # thislist[1:2] = ["blackcurrant", "watermelon"] #place b/w apple & banana
 # thislist.append("guava")   #add item to last
 # tropical = ["mango", "pineapple", "papaya"]
@@ -328,6 +328,7 @@ print(l)
 # del thislist[0]
 # del thislist
 # thislist.clear()
+# print(thislist)
 
 #loop list
 # for x in thislist:
@@ -348,12 +349,12 @@ print(l)
 # [print(x) for x in list1]
 # [print(x) for x in [1,2,3,4]]
 
-# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
-# newlist = [x for x in fruits if "ma" in x]
+newlist = [x for x in fruits if "mango" in x]
 
-# print(newlist)
-# print(fruits) 
+print(newlist)
+print(fruits) 
 
 #Iterable
 # l2 = [x for x in range(0,10)]
