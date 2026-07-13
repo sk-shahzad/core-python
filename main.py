@@ -316,7 +316,7 @@ dictionary = Ordered and changeable, no duplicate. '''
 # thislist.insert(2,"watermelon")
 # print(thislist)
 
-thislist = ["apple", "banana", "apple", "cherry", "orange", "kiwi", "mango"]
+# thislist = ["apple", "banana", "apple", "cherry", "orange", "kiwi", "mango"]
 # thislist[1:2] = ["blackcurrant", "watermelon"] #place b/w apple & banana
 # thislist.append("guava")   #add item to last
 # tropical = ["mango", "pineapple", "papaya"]
@@ -368,10 +368,10 @@ thislist = ["apple", "banana", "apple", "cherry", "orange", "kiwi", "mango"]
 # print(newlist)
 
 # sort
-l = [1,2,3,4,5]
-nl = [x if x != 2 else 6 for x in l]
-nl.sort(reverse=True)
-print(nl)
+# l = [1,2,3,4,5]
+# nl = [x if x != 2 else 6 for x in l]
+# nl.sort(reverse=True)
+# print(nl)
 
 #Tuple
 # t = ("apple","banana","kiwi","apple")
@@ -388,13 +388,13 @@ print(nl)
 # print(len(t2))
 
 # unpack
-# (a,b,c,d) = t
-# print(a)
-# print(b)
-# print(c)
-# print(d)
-# (*f,) = t
-# print(f)
+# fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
+
+# (green, *tropic, red) = fruits
+
+# print(green)
+# print(tropic)
+# print(red)
 
 #Join
 # t1 = (1,2,3)
