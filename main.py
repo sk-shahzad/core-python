@@ -418,8 +418,8 @@ dictionary = Ordered and changeable, no duplicate. '''
 
 #Join sets
 # we can join multiple sets as so
-s1 = {1,2,3,4,}
-s2 = {"a","b","c",4}
+# s1 = {1,2,3,4,}
+# s2 = {"a","b","c",4}
 # s3 = s1.union(s2)   #union and update join all elements from both sets
 # s4 = s1 | s2        #also we can use |
 # print(s3)
@@ -444,13 +444,13 @@ s2 = {"a","b","c",4}
 # print(Collection)
 
 
-# col = set()
-# col.add("cherry")
-# col.add(2)
-# col.add(2)
+col = set()
+col.add("cherry")
+col.add(2)
+col.add(2)
 
 # col.remove(1)
-# print(col)
+print(col)
 
 # dic = {"name": "shahzad",
 #        "Age": 25,
