@@ -444,64 +444,45 @@ dictionary = Ordered and changeable, no duplicate. '''
 # print(Collection)
 
 
-col = set()
-col.add("cherry")
-col.add(2)
-col.add(2)
+# col = set()
+# col.add("cherry")
+# col.add(2)
+# col.add(2)
 
-# col.remove(1)
-print(col)
+# # col.remove(1)
+# print(col)
 
-# dic = {"name": "shahzad",
-#        "Age": 25,
-#        "Age": 26,
-#        "Address": "Swat"}
+dic = {"name": "shahzad",
+       "Age": 25,
+       "Age": 26,
+       "Address": "Swat"}
 # print(dic)
 # print(dic["name"])
 # print(dic.get("Age"))
 # print(dic.keys())
-# dic["Hobby"] = "Music"
+dic["Hobby"] = "Music"
+dic["gender"] = "male"
 # print(dic.keys())
 
 # print(dic.values())
 # print(dic.items())
 # if "Age" in dic:
-#     print("True")
+#     print("Age is " + str(dic["Age"]))
 
 # dic["Age"] = 88
 # dic.update({"Address": "Mingora"})
-# # dic.pop("Address")
+# dic.pop("Address")
 # dic.popitem()   #Remove last inserted item
 # print(dic)
 # del keyword can remove specific item as well as entire dictionary, Clear method empty the dic
-
+# print(len(dic))
 # for x in dic:
 #     print(x)
 # for x in dic.values():
 #     print(x)
 # for x, y in dic.items():
 #     print(x, y)
-#Extend
-# thislist = ['apple','bananan']
-# tuple = ("kiwi", "orange")
-# dic = {'name': 'shahzad', 'age': 26}
-# set = "a,b,c"
-# thislist.extend(tropical)
-# thislist.extend(tuple)
-# thislist.extend(dic.items())
-# thislist.extend(set)
-# try:
-#     print(thislist)
-# except:
-#     print('No list found')
 
-# mov = []
-
-# mov.append(input("Enter item to list: "))
-# mov.append(input("Enter item to list: "))
-# mov.append(input("Enter item to list: "))
-# mov.sort(reverse=True)
-# print(mov)
 
 # info = {
 #   "name" : "Khalid",
@@ -533,6 +514,27 @@ print(col)
 # print(list(student.keys()))
 # print((student.values()))
 
+#Extend
+# thislist = ['apple','bananan']
+# tuple = ("kiwi", "orange")
+# dic = {'name': 'shahzad', 'age': 26}
+# set = "a,b,c"
+# thislist.extend(tropical)
+# thislist.extend(tuple)
+# thislist.extend(dic.items())
+# thislist.extend(set)
+# try:
+#     print(thislist)
+# except:
+#     print('No list found')
+
+# mov = []
+
+# mov.append(input("Enter item to list: "))
+# mov.append(input("Enter item to list: "))
+# mov.append(input("Enter item to list: "))
+# mov.sort(reverse=True)
+# print(mov)
 
 # Loop
 # i = 1
