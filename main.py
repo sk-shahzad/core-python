@@ -452,16 +452,16 @@ dictionary = Ordered and changeable, no duplicate. '''
 # # col.remove(1)
 # print(col)
 
-dic = {"name": "shahzad",
-       "Age": 25,
-       "Age": 26,
-       "Address": "Swat"}
+# dic = {"name": "shahzad",
+#        "Age": 25,
+#        "Age": 26,
+#        "Address": "Swat"}
 # print(dic)
 # print(dic["name"])
 # print(dic.get("Age"))
 # print(dic.keys())
-dic["Hobby"] = "Music"
-dic["gender"] = "male"
+# dic["Hobby"] = "Music"
+# dic["gender"] = "male"
 # print(dic.keys())
 
 # print(dic.values())
@@ -509,10 +509,29 @@ dic["gender"] = "male"
 #   "BS"    :  "CS"
 # }
 # print(student["subjects"])
+# print(student["subjects"]["phy"])
 # print(student.get("subject"))
 # print((student.keys()))
 # print(list(student.keys()))
 # print((student.values()))
+
+# myfamily = {
+#   "child1" : {
+#     "name" : "Emil",
+#     "year" : 2004
+#   },
+#   "child2" : {
+#     "name" : "Tobias",
+#     "year" : 2007
+#   },
+#   "child3" : {
+#     "name" : "Linus",
+#     "year" : 2011
+#   }
+# }
+
+# print(myfamily["child1"]['name'])
+
 
 #Extend
 # thislist = ['apple','bananan']
